@@ -2,7 +2,10 @@
   "name": "@nx_react_starter",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "dev:backoffice": "nx serve back-office",
+    "build:backoffice": "nx build back-office"
+  },
   "private": true,
   "dependencies": {
     "@nx/next": "16.7.4",
